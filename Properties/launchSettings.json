@@ -1,0 +1,21 @@
+{
+  "profiles": {
+    "ReverseProxy": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:9002/api/service/",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://localhost:9002"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/service/",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}

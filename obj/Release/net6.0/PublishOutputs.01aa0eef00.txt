@@ -1,0 +1,8 @@
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\ReverseProxy.exe
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\appsettings.Development.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\appsettings.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\ReverseProxy.dll
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\ReverseProxy.deps.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\ReverseProxy.runtimeconfig.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\ReverseProxy.pdb
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Docker\publish\Yarp.ReverseProxy.dll

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FX7jD4WArmpyKEfj1K2moWWBQDLkxVoCCijmpsxnAorM0TzQqIgmksMr4pyaqv8jXDxIDMN/8DPmPpfp88Q3cQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gmoalla_mantu\\Desktop\\yarp-sample-main\\src\\ReverseProxy\\ReverseProxy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gmoalla_mantu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\gmoalla_mantu\\.nuget\\packages\\yarp.reverseproxy\\1.1.1\\yarp.reverseproxy.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

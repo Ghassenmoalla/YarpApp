@@ -1,0 +1,8 @@
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\ReverseProxy.exe
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\ReverseProxy.dll
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\ReverseProxy.deps.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\ReverseProxy.runtimeconfig.json
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\ReverseProxy.pdb
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Release\net6.0\PubTmp\Out\Yarp.ReverseProxy.dll
