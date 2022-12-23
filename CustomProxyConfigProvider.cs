@@ -39,8 +39,8 @@ namespace ReverseProxy
                     LoadBalancingPolicy = LoadBalancingPolicies.RoundRobin,
                     Destinations = new Dictionary<string, DestinationConfig>
                     {
-                        { "destination1", new DestinationConfig { Address = "https://yahoo.fr" } },
-                        { "destination2", new DestinationConfig { Address = "https://google.com/" } }
+                        { "destination1", new DestinationConfig { Address = "https://ghassenapp1.azurewebsites.net/" } },
+                        { "destination2", new DestinationConfig { Address = "https://ghassenapp.azurewebsites.net/" } }
                     }
                 }
             };
