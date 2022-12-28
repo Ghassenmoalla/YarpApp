@@ -25,25 +25,13 @@ namespace ReverseProxy
                     Path = "/api/service/{**catch-all}"
                 }
             };
-            var routeConfig1 = new RouteConfig
-            {
-                RouteId = "route2",
-
-                ClusterId = "cluster2",
-                Match = new RouteMatch
-                {
-                    Path = "/"
-                }
-            };
+            
             routeConfig = routeConfig
                 .WithTransformPathRemovePrefix(prefix: "/api/service")
                 .WithTransformResponseHeader(headerName: "Source", value: "YARP", append: true);
-            routeConfig1 = routeConfig1
-                    .WithTransformPathRemovePrefix(prefix: "/")
-                .WithTransformResponseHeader(headerName: "Source", value: "YARP", append: true);
 
             var routeConfigs = new[] { routeConfig };
-            var routeConfigs1 = new[] { routeConfig1 };
+
             var clusterConfigs = new[]
             {
                 new ClusterConfig
@@ -53,21 +41,11 @@ namespace ReverseProxy
                     LoadBalancingPolicy = LoadBalancingPolicies.RoundRobin,
                     Destinations = new Dictionary<string, DestinationConfig>
                     {
-                        { "destination1", new DestinationConfig { Address = "https://ghassenapp1.azurewebsites.net" } },
-                        { "destination2", new DestinationConfig { Address = "https://ghassenapp.azurewebsites.net" } }
-                    }
-                },
-                new ClusterConfig
-                {
-                    ClusterId = "cluster2",
-
-                    LoadBalancingPolicy = LoadBalancingPolicies.RoundRobin,
-                    Destinations = new Dictionary<string, DestinationConfig>
-                    {
-                        { "destination1", new DestinationConfig { Address = "https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-7.0" } },
-                       
+                        { "destination1", new DestinationConfig { Address = "https://bank0.azurewebsites.net/" } },
+                        { "destination2", new DestinationConfig { Address = "https://supermarket.azurewebsites.net/" } }
                     }
                 }
+                
             };
 
 
