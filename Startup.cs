@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Yarp.ReverseProxy.Configuration;
+using Yarp.ReverseProxy;
 
 namespace ReverseProxy
 {
@@ -18,18 +18,9 @@ namespace ReverseProxy
 
         public void ConfigureServices(IServiceCollection services)
         {
-            if (_configuration.GetValue<bool>("UseCodeBasedConfig"))
-            {
-                services
-                    .AddSingleton<IProxyConfigProvider>(new CustomProxyConfigProvider())
-                    .AddReverseProxy();
-            }
-            else
-            {
-                services
-                    .AddReverseProxy()
-                    .LoadFromConfig(_configuration.GetSection("ReverseProxy"));
-            }
+            services
+                .AddReverseProxy()
+            .LoadFromConfig(_configuration.GetSection("ReverseProxy"));
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
