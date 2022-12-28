@@ -56,7 +56,7 @@ namespace ReverseProxy
                         { "destination1", new DestinationConfig { Address = "https://ghassenapp1.azurewebsites.net" } },
                         { "destination2", new DestinationConfig { Address = "https://ghassenapp.azurewebsites.net" } }
                     }
-                }
+                },
                 new ClusterConfig
                 {
                     ClusterId = "cluster2",
