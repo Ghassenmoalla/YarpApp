@@ -21,6 +21,7 @@ namespace ReverseProxy
             services
                 .AddReverseProxy()
             .LoadFromConfig(_configuration.GetSection("ReverseProxy"));
+            services.AddApplicationInsightsTelemetry();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
