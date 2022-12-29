@@ -9,6 +9,7 @@ namespace ReverseProxy
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
         private readonly IConfiguration _configuration;
 
         public Startup(IConfiguration configuration)

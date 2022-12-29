@@ -1,8 +1,10 @@
 {
   "dependencies": {
     "appInsights1": {
-      "type": "appInsights.sdk",
-      "dynamicId": null
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/ReverseProxy",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
     }
   }
 }

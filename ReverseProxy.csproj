@@ -3,6 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <UserSecretsId>d07bb442-a3ac-4cc0-b06f-ee4caaf856bb</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <ApplicationInsightsResourceId>/subscriptions/41b1f2d5-95db-46a1-968c-c172a404f63c/resourceGroups/NetworkWatcherRG/providers/microsoft.insights/components/ReverseProxy</ApplicationInsightsResourceId>
   </PropertyGroup>
   <ItemGroup> 
    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" /> 

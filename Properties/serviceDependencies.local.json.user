@@ -2,8 +2,19 @@
   "dependencies": {
     "appInsights1": {
       "restored": true,
-      "restoreTime": "2022-12-29T10:06:08.2550472Z"
+      "restoreTime": "2022-12-29T13:25:21.0054681Z"
     }
   },
-  "parameters": {}
+  "parameters": {
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NetworkWatcherRG"
+    },
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "41b1f2d5-95db-46a1-968c-c172a404f63c"
+    }
+  }
 }

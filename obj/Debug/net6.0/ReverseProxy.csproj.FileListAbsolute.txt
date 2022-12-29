@@ -49,3 +49,4 @@ C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Debug\net6.
 C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Debug\net6.0\ReverseProxy.pdb
 C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Debug\net6.0\ReverseProxy.genruntimeconfig.cache
 C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\obj\Debug\net6.0\ref\ReverseProxy.dll
+C:\Users\gmoalla_mantu\Desktop\yarp-sample-main\src\ReverseProxy\bin\Debug\net6.0\ReverseProxy.staticwebassets.runtime.json
