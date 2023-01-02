@@ -11,13 +11,7 @@ namespace ReverseProxy
 {
     public class Startup
     {
-
-
-
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddSingleton<ITelemetryInitializer, MyTelemetryInitializer>();
-        }
+     
         public IConfiguration Configuration { get; }
         private readonly IConfiguration _configuration;
 
@@ -32,6 +26,7 @@ namespace ReverseProxy
                 .AddReverseProxy()
             .LoadFromConfig(_configuration.GetSection("ReverseProxy"));
             services.AddApplicationInsightsTelemetry();
+            services.AddSingleton<ITelemetryInitializer, MyTelemetryInitializer>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

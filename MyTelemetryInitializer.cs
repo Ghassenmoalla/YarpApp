@@ -1,7 +1,7 @@
 ﻿using Microsoft.ApplicationInsights.Channel;
 using Microsoft.ApplicationInsights.Extensibility;
 
-namespace ReverseProxy
+namespace CustomInitializer.Telemetry
 {
     public class MyTelemetryInitializer : ITelemetryInitializer
     {
